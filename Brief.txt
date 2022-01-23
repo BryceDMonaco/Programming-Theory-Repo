@@ -1,0 +1,17 @@
+Shape -> Sphere / Cube
+
+Shape
+	Volume
+	Name
+	
+	Cube
+		X/Y/Z Dimensions
+	
+	Sphere
+		Radius
+		
+Shape Encapsulation
+	Ensure dimensions not negative
+	
+Abstraction
+	CalculateVolume()
