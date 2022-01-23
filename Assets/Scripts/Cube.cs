@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class Cube : Shape
 {
     public Vector3 dimensions;
@@ -13,6 +14,7 @@ public class Cube : Shape
         CalculateVolume();
     }
 
+    // POLYMORPHISM
     protected sealed override float CalculateVolume()
     {
         volume = dimensions.x * dimensions.y * dimensions.z;

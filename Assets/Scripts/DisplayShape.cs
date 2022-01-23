@@ -22,6 +22,7 @@ public class DisplayShape : MonoBehaviour
     {
         if (thisType == ShapeType.Cube)
         {
+            // POLYMORPHISM
             myShape = new Cube(transform.localScale.x, transform.localScale.y, transform.localScale.z);
         } else if (thisType == ShapeType.Sphere)
         {
